@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon -e ejs,js,html index.js"
+    "dev": "nodemon -e ejs,js,html index.js"
   },
   "repository": "git+https://github.com/nuSapb/Spare-parts-management.git",
   "author": "Anu S.",
@@ -13,5 +13,29 @@
   "bugs": {
     "url": "https://github.com/nuSapb/Spare-parts-management/issues"
   },
-  "homepage": "https://github.com/nuSapb/Spare-parts-management#readme"
+  "homepage": "https://github.com/nuSapb/Spare-parts-management#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "bcrypt": "3.0.0",
+    "cron": "^1.6.0",
+    "ejs": "^2.6.1",
+    "email-templates": "^5.0.2",
+    "fs-extra": "^7.0.1",
+    "global": "^4.3.2",
+    "install": "^0.12.2",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-ejs": "^4.1.2",
+    "koa-logger": "^1.3.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "mysql2": "^1.6.4",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.9",
+    "uuid4": "^1.1.2",
+    "validator": "^10.9.0",
+    "yarn": "^1.13.0"
+  }
 }
